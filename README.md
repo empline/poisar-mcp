@@ -1,4 +1,4 @@
-# Poisar for Gemini CLI
+# Poisar MCP connector
 
 Connect [Gemini CLI](https://geminicli.com/docs/get-started/installation/) to
 [Poisar](https://poisar.com)'s existing public MCP server. Read its product
@@ -8,7 +8,7 @@ between public information and authenticated application features.
 ## Install
 
 ```sh
-gemini extensions install https://github.com/empline/poisar-gemini
+gemini extensions install https://github.com/empline/poisar-mcp
 ```
 
 Restart an existing Gemini CLI session after installation. Run `/mcp` inside
