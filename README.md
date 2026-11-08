@@ -25,14 +25,15 @@ it installs no local server or additional dependencies.
 
 | Tool | Purpose |
 | --- | --- |
-| `get_public_overview` | Read the public product overview, discovery links, and protected-route boundaries. |
-| `get_agent_readiness_links` | Get canonical public agent discovery links. |
+| `poisar_get_public_overview` | Read the public product overview, discovery links, and protected-route boundaries. |
+| `poisar_get_agent_readiness_links` | Get canonical public agent discovery links. |
+| `poisar_get_support` | Read the manual public protocol support workflow and its privacy limits. |
 
-Both tools take no arguments and are read-only. This integration cannot access
+All three tools take no arguments and are read-only. This integration cannot access
 accounts, broker state, market feeds, authenticated application data, or submit
 trades. It does not provide portfolio analysis, signals, or trading advice.
 
-The manifest explicitly allows these two tools. New server tools need a reviewed
+The manifest explicitly allows these three tools. New server tools need a reviewed
 manifest update before they become available through this extension. No
 automatic approval, credentials, local commands, hooks, or additional model
 instructions are configured. The server enforces the public access boundary.
@@ -55,9 +56,9 @@ command. Review changes before updating an installed extension.
 The root `gemini-extension.json` is the complete integration. Its version is
 independent of the remote MCP server version. Before releasing:
 
-1. Compare the allowlist with live `tools/list`; require both tools to advertise
+1. Compare the allowlist with live `tools/list`; require all three tools to advertise
    `readOnlyHint: true` and accept no arguments.
-2. Verify initialization and both tool calls with an MCP SDK client.
+2. Verify initialization and all three tool calls with an MCP SDK client.
 3. Confirm a call to an undeclared tool is refused.
 4. Install from the public repository in a fresh `GEMINI_CLI_HOME` and require
    `gemini mcp list` to report Connected.

@@ -1,13 +1,14 @@
 {
   "name": "poisar",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Read-only public Poisar product overview, agent discovery links, and access boundaries.",
   "mcpServers": {
     "poisar": {
       "httpUrl": "https://poisar.com/api/mcp",
       "includeTools": [
-        "get_public_overview",
-        "get_agent_readiness_links"
+        "poisar_get_public_overview",
+        "poisar_get_agent_readiness_links",
+        "poisar_get_support"
       ]
     }
   }
