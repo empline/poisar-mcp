@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "observedAt": "2026-11-08T20:47:31.950Z",
+  "clineCliVersion": "3.0.74",
+  "clineCoreVersion": "0.2.0",
+  "profile": "isolated without account credentials",
+  "configurationInstalledBy": "actual cline mcp add command",
+  "setupSource": "reviewed Cline README endpoint and Streamable HTTP transport",
+  "readmeSha256": "a7cd79925190a55d346f8ec6f14d6f75cf1c99a9f3bf13560eff088846ede87a",
+  "connected": true,
+  "transport": "streamableHttp",
+  "endpoint": "https://poisar.com/api/mcp",
+  "toolCount": 3,
+  "publicReadTool": "poisar_get_public_overview",
+  "publicReadSucceeded": true,
+  "privateAccountAndWriteAcceptance": "not-tested",
+  "fullCatalogSha256": "26c691bd78dfe7193fe4a87a0736ea72728ca4e8e0413d62a1e547f11c64dd18"
+}

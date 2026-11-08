@@ -1,11 +1,42 @@
 # Poisar MCP connector
 
-Connect [Gemini CLI](https://geminicli.com/docs/get-started/installation/) to
+Connect your AI assistant to
 [Poisar](https://poisar.com)'s existing public MCP server. Read its product
 overview, discover agent access documentation, and understand the boundary
 between public information and authenticated application features.
 
-## Install
+## Install in Cline
+
+Connect to the hosted Streamable HTTP endpoint at `https://poisar.com/api/mcp`.
+No local server process or backend source download is required.
+
+In Cline, add a remote MCP server and choose **Streamable HTTP**, or merge this
+entry into the IDE MCP settings without replacing your existing servers:
+
+```json
+{
+  "mcpServers": {
+    "poisar": {
+      "type": "streamableHttp",
+      "url": "https://poisar.com/api/mcp",
+      "autoApprove": [],
+      "disabled": false
+    }
+  }
+}
+```
+
+For Cline CLI:
+
+```sh
+cline mcp add poisar https://poisar.com/api/mcp --transport http --yes
+```
+
+Public discovery is available without an account or API key. Keep tool auto-approval disabled. Tool discovery does not grant
+permission to run a protected action; scopes and native approvals still apply.
+See [Cline setup guidance](llms-install.md). Support: support@poisar.com.
+
+## Install in Gemini CLI
 
 ```sh
 gemini extensions install https://github.com/empline/poisar-mcp
