@@ -47,12 +47,14 @@ Gemini CLI to inspect the connection. No Poisar account or API key is required.
 The extension connects over Streamable HTTP to `https://poisar.com/api/mcp`;
 it installs no local server or additional dependencies.
 
-## Try it
+## Capabilities and access
+
+### Try it
 
 - "Use Poisar to explain its public agent access capabilities and boundaries."
 - "Use Poisar to find the canonical agent guide and API discovery documents."
 
-## Available tools
+### Available tools
 
 | Tool | Purpose |
 | --- | --- |
@@ -72,6 +74,12 @@ instructions are configured. The server enforces the public access boundary.
 See the [agent guide](https://poisar.com/agents) and
 [Privacy](https://poisar.com/privacy).
 
+## Tool exposure
+
+Policy: `reviewed-allowlist`. The manifest pins a reviewed tool allowlist. New tools require a reviewed manifest update. Inclusion does not grant scopes or approve actions.
+
+Authentication policy: `none`. The hosted endpoint is `https://poisar.com/api/mcp`. No credentials or automatic tool approvals are bundled.
+
 ## Update or uninstall
 
 ```sh
@@ -79,10 +87,13 @@ gemini extensions update poisar
 gemini extensions uninstall poisar
 ```
 
-For a reproducible installation, append `--ref <full-commit-sha>` to the install
-command. Review changes before updating an installed extension.
+Pin `--ref <full-commit-sha>` when a reproducible installation is required.
 
-## Maintainers
+## Verification
+
+Run `npm ci --ignore-scripts` and `npm test`. The canonical JSON AST guard rejects metadata drift and duplicate keys; mutation tests prove refusal of unsafe configuration and bypassed validation. Push and pull-request CI run the same checks. These packaging checks do not certify signed-in workflows or live service behavior.
+
+### Maintainers
 
 The root `gemini-extension.json` is the complete integration. Its version is
 independent of the remote MCP server version. Before releasing:
@@ -100,3 +111,7 @@ Google's [gallery](https://geminicli.com/extensions/) discovers public tagged
 repositories on a documented daily crawl and lists extensions that pass
 validation. Publishing here does not establish inclusion or endorsement.
 [Release requirements](https://geminicli.com/docs/extensions/releasing/#list-your-extension-in-the-gallery).
+
+## Links
+
+Support: support@poisar.com · [Privacy](https://poisar.com/privacy) · [Terms](https://poisar.com/terms)

@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "name": "poisar",
+  "title": "Poisar",
+  "domain": "poisar.com",
+  "auth": "none",
+  "toolExposure": "reviewed-allowlist"
+}
