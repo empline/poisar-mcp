@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "sourceRepository": "https://github.com/empline/poisar",
+  "sourceDirectory": "integrations/mcp",
+  "manifestSource": "integrations/gemini/gemini-extension.json",
+  "sourceSha256": "a6a8109d8ed4a4fd64fa19889fe94e625b03feacdfc48f543f0acea6cb541a77",
+  "toolingSha256": "398224913e48bede6f9847a5719c32235e3c4a5df29a0143dc9407b20fed8d88",
+  "files": {
+    ".githooks/pre-commit": {
+      "sha256": "7754c2c2a0a14669666e65179587db634a82b85531bb8526817cfb8bb22069ff",
+      "mode": 33261
+    },
+    ".githooks/pre-push": {
+      "sha256": "7754c2c2a0a14669666e65179587db634a82b85531bb8526817cfb8bb22069ff",
+      "mode": 33261
+    },
+    ".gitignore": {
+      "sha256": "4d56952b0fb13bf8f9b6c13a6d4c34a075bac3af447636a1df4335d7576e2f97",
+      "mode": 33188
+    },
+    "LICENSE": {
+      "sha256": "7e231b559e413abee4fd5c2fd66890b817e21452d83329a571b10e650e896266",
+      "mode": 33188
+    },
+    "README.md": {
+      "sha256": "4adea20abae5a0ea9ec85ceced4b684ce9c31c5262f39ac0675674030af6aad1",
+      "mode": 33188
+    },
+    "assets/cline-logo-400.png": {
+      "sha256": "8e8bc57f8755c10233503b6cb7d7c4eec3522a3b6b2169f7486345ab12241c87",
+      "mode": 33188
+    },
+    "cline-installation-proof.json": {
+      "sha256": "4bd38f959eb17124371429682a960e465548e5c49f4764cf5e8f93bec6edb40a",
+      "mode": 33188
+    },
+    "connector-policy.json": {
+      "sha256": "90be66aab7b52a4b8de95933f023fcc822ffc2861047166de817186fce353c31",
+      "mode": 33188
+    },
+    "gemini-extension.json": {
+      "sha256": "38cfe1c6e96beabf5c90d2af66b274251db6c1bfe95472804440e6cfa934f2c9",
+      "mode": 33188
+    },
+    "llms-install.md": {
+      "sha256": "7c243a08add41eaf8e18c20916a55de85abec97b16b5d24e9009cb9da77334c8",
+      "mode": 33188
+    },
+    "package-lock.json": {
+      "sha256": "08579873ea5ed6f86fd83a599669e47a06313c399ff2d94aa50e6d47fe353380",
+      "mode": 33188
+    },
+    "package.json": {
+      "sha256": "1a7d0f80e1f051e9d1cebc46ba00ad4a260909db3c3c18b577e3835a171f1546",
+      "mode": 33188
+    },
+    "scripts/contract.mjs": {
+      "sha256": "01f781b2d0b5fa513ae069e910292c82765771e06fe344ddf0d5b0604fa1c995",
+      "mode": 33188
+    },
+    "scripts/install-hooks.mjs": {
+      "sha256": "72b9eb3417859228f212e71bf963498b8363eda6f26aba79771afee4cc351c7b",
+      "mode": 33188
+    },
+    "scripts/validate.mjs": {
+      "sha256": "08bc27577be83b97f763ff42088ab230101bcfa64b6a95c0c97d697774eca439",
+      "mode": 33188
+    },
+    "tests/contract.test.mjs": {
+      "sha256": "9815d1d20e306b2605459a68847bb50c5da7a43288a5910c4d5518de0e7ca9e1",
+      "mode": 33188
+    }
+  }
+}

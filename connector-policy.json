@@ -4,5 +4,6 @@
   "title": "Poisar",
   "domain": "poisar.com",
   "auth": "none",
-  "toolExposure": "reviewed-allowlist"
+  "toolExposure": "reviewed-allowlist",
+  "distribution": "app-owned"
 }
