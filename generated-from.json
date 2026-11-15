@@ -3,8 +3,8 @@
   "sourceRepository": "https://github.com/empline/poisar",
   "sourceDirectory": "integrations/mcp",
   "manifestSource": "integrations/gemini/gemini-extension.json",
-  "sourceSha256": "5dfffdf22ada5eaec4b86cafcf174b7a94c8ebdcaa1f3718bf932111a48cd96b",
-  "toolingSha256": "984d914ff4bc84c24fd88a3d106ab3f0ab20d4be4886d6ce0d07e55f237e9e01",
+  "sourceSha256": "31faceab7adb246d830830df501187d8f8edabaf8badf8d32bc0f9ef2e1fb5ff",
+  "toolingSha256": "afcb0183237d6debdc9d8a91964692a1707b86827d75ac78b11345c1ca37ca31",
   "files": {
     ".githooks/commit-msg": {
       "sha256": "f82321fc6a4e76f639b90d076439963321be8a06ea0b1744e469cd66f3acff0f",
@@ -47,7 +47,7 @@
       "mode": 33188
     },
     "gemini-extension.json": {
-      "sha256": "43f780e85088ca6911582877fd29b6a458c38892f908bd52c1c2bfa628d1567b",
+      "sha256": "699f13646e16c9bdbc68b38e17c5fceadab6cf336c9d112c7b6f2689b45d4c76",
       "mode": 33188
     },
     "llms-install.md": {
@@ -55,15 +55,15 @@
       "mode": 33188
     },
     "package-lock.json": {
-      "sha256": "5fad9684ee1c0ad080d2c429c17c05903414f56dab7c7c3661ffc240ca5b7cf8",
+      "sha256": "74a1ee88ba890fd9525f651deb6a67da15adcfd17e9a88c459428559d327afd2",
       "mode": 33188
     },
     "package.json": {
-      "sha256": "da46cbc96e4b8a33b0ddfd9626f7dc9adec0e52ab461c5bfb36f3d68309c5f61",
+      "sha256": "a72c9107f5bd2b983b50dc19b0eb4a7b9147c94dd13166819f9cd4e2ff783194",
       "mode": 33188
     },
     "scripts/contract.mjs": {
-      "sha256": "f1105fea22b0af8f6c6d56cbb7bf9ae46a63c565a18895f3075f22ec81512e69",
+      "sha256": "b530ec8c5de7500af5465d625d4ae69b81d26087c54f17f0de7a78e135ba1a8e",
       "mode": 33188
     },
     "scripts/git-attribution.cjs": {
