@@ -3,15 +3,23 @@
   "sourceRepository": "https://github.com/empline/poisar",
   "sourceDirectory": "integrations/mcp",
   "manifestSource": "integrations/gemini/gemini-extension.json",
-  "sourceSha256": "ef2bc3516c0d87a0316a4cbef2be8a29d4a31322c6d6d38f0e5b327b2cb54efa",
-  "toolingSha256": "62f79bf45fea352b5b30993538707b2ef4cb756d5b495b2980afa136c0c06016",
+  "sourceSha256": "5dfffdf22ada5eaec4b86cafcf174b7a94c8ebdcaa1f3718bf932111a48cd96b",
+  "toolingSha256": "984d914ff4bc84c24fd88a3d106ab3f0ab20d4be4886d6ce0d07e55f237e9e01",
   "files": {
+    ".githooks/commit-msg": {
+      "sha256": "f82321fc6a4e76f639b90d076439963321be8a06ea0b1744e469cd66f3acff0f",
+      "mode": 33261
+    },
     ".githooks/pre-commit": {
       "sha256": "35ceec1f1305ff1e2837d603f8b7b69b175456ee1b4ba93c16d6bb465a8a3962",
       "mode": 33261
     },
     ".githooks/pre-push": {
       "sha256": "1b53a94f04b3d62f31323c90cb88b2c2a94bd159b6033eacf18829577da0cd7c",
+      "mode": 33261
+    },
+    ".githooks/prepare-commit-msg": {
+      "sha256": "f82321fc6a4e76f639b90d076439963321be8a06ea0b1744e469cd66f3acff0f",
       "mode": 33261
     },
     ".gitignore": {
@@ -39,7 +47,7 @@
       "mode": 33188
     },
     "gemini-extension.json": {
-      "sha256": "38cfe1c6e96beabf5c90d2af66b274251db6c1bfe95472804440e6cfa934f2c9",
+      "sha256": "43f780e85088ca6911582877fd29b6a458c38892f908bd52c1c2bfa628d1567b",
       "mode": 33188
     },
     "llms-install.md": {
@@ -47,27 +55,35 @@
       "mode": 33188
     },
     "package-lock.json": {
-      "sha256": "08579873ea5ed6f86fd83a599669e47a06313c399ff2d94aa50e6d47fe353380",
+      "sha256": "5fad9684ee1c0ad080d2c429c17c05903414f56dab7c7c3661ffc240ca5b7cf8",
       "mode": 33188
     },
     "package.json": {
-      "sha256": "1a7d0f80e1f051e9d1cebc46ba00ad4a260909db3c3c18b577e3835a171f1546",
+      "sha256": "da46cbc96e4b8a33b0ddfd9626f7dc9adec0e52ab461c5bfb36f3d68309c5f61",
       "mode": 33188
     },
     "scripts/contract.mjs": {
-      "sha256": "ce37d3e94d7990835d6f11e5d12f52108c8aeaf30a674e8c4102552ae8abeca6",
+      "sha256": "f1105fea22b0af8f6c6d56cbb7bf9ae46a63c565a18895f3075f22ec81512e69",
+      "mode": 33188
+    },
+    "scripts/git-attribution.cjs": {
+      "sha256": "59f4e5078cabc8f5ce0daec37bee7cf65c597021fe45b0b8ede264560a2979bf",
       "mode": 33188
     },
     "scripts/install-hooks.mjs": {
       "sha256": "72b9eb3417859228f212e71bf963498b8363eda6f26aba79771afee4cc351c7b",
       "mode": 33188
     },
+    "scripts/validate-attribution.cjs": {
+      "sha256": "41da62d9df445da990ff777b6cd8108bdf565d87867c9eabe8b39eb9d2e7a67f",
+      "mode": 33188
+    },
     "scripts/validate.mjs": {
-      "sha256": "efcfcd73affec91628fba89758ae874e7cf93981037ed94ac4ac912d696caf9a",
+      "sha256": "3a5e8f4cfec9f28336bca6c4027f90c70817bffb6ed14fadb54900035b80b6ac",
       "mode": 33188
     },
     "tests/contract.test.mjs": {
-      "sha256": "9815d1d20e306b2605459a68847bb50c5da7a43288a5910c4d5518de0e7ca9e1",
+      "sha256": "e9ee594792cd887b34060f19c1640321e4abe7313ef19cc5b91c17c307abb320",
       "mode": 33188
     }
   }
